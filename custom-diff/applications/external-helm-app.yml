@@ -1,5 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
+ignoreDifferences:
+
 metadata:
   name: helm-example02
   namespace: argocd
